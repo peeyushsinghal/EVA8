@@ -65,27 +65,3 @@ Inside Training epoch - 5, processing step 1001 , Training loss: 0.0009802425047
 After completion of epoch 5   Training loss: 0.006870337761938572
 Testing...
 Test loss: 1.4358101598918438 total_correct_label: 59866 accuracy_labels: 99.777 %  total_correct_sum: 59321 accuracy_correct_sum: 98.868 % 
-### Training logs (old)
-
-/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
-  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
-
-After completion of epoch 1   Training loss: 0.4649723470211029
-Testing...
-Test loss: 34.224786818027496 total_correct_label: 58709 accuracy_labels: 97.848 %  total_correct_sum: 37697 accuracy_correct_sum: 62.828 % 
-
-After completion of epoch 2   Training loss: 0.2918633222579956
-Testing...
-Test loss: 9.194906830787659 total_correct_label: 59380 accuracy_labels: 98.967 %  total_correct_sum: 56513 accuracy_correct_sum: 94.188 % 
-
-After completion of epoch 3   Training loss: 0.059926837682724
-Testing...
-Test loss: 4.166031699627638 total_correct_label: 59368 accuracy_labels: 98.947 %  total_correct_sum: 58391 accuracy_correct_sum: 97.318 % 
-
-After completion of epoch 4   Training loss: 0.06129102408885956
-Testing...
-Test loss: 2.3967976197600365 total_correct_label: 59704 accuracy_labels: 99.507 %  total_correct_sum: 59007 accuracy_correct_sum: 98.345 % 
-
-After completion of epoch 5   Training loss: 0.012244242243468761
-Testing...
-Test loss: 1.9272407814860344 total_correct_label: 59767 accuracy_labels: 99.612 %  total_correct_sum: 59142 accuracy_correct_sum: 98.57 % 
