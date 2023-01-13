@@ -74,3 +74,27 @@ ASK
 
 SOLUTION
 - 99.43% achieved in Epoch 15 with Total params: 19,898
+
+Model Summary
+------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+            Conv2d-1           [-1, 32, 26, 26]             832
+       BatchNorm2d-2           [-1, 32, 26, 26]              64
+            Conv2d-3           [-1, 16, 26, 26]           4,624
+       BatchNorm2d-4           [-1, 16, 26, 26]              32
+         MaxPool2d-5           [-1, 16, 13, 13]               0
+           Dropout-6           [-1, 16, 13, 13]               0
+            Conv2d-7           [-1, 32, 13, 13]           4,640
+       BatchNorm2d-8           [-1, 32, 13, 13]              64
+            Conv2d-9           [-1, 32, 13, 13]           9,248
+      BatchNorm2d-10           [-1, 32, 13, 13]              64
+        MaxPool2d-11             [-1, 32, 6, 6]               0
+          Dropout-12             [-1, 32, 6, 6]               0
+           Conv2d-13             [-1, 10, 6, 6]             330
+        AvgPool2d-14             [-1, 10, 1, 1]               0
+	
+Total params: 19,898
+Trainable params: 19,898
+Non-trainable params: 0
+
