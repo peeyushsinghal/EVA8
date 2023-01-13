@@ -4,6 +4,7 @@ PART 1
 ------
 Screenshot of excel file
 -----------------------
+![image](https://user-images.githubusercontent.com/10797988/212402042-d6e219ae-abf7-4eb3-b370-4a3a5ade6f79.png)
 
 
 
