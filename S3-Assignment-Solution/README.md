@@ -63,6 +63,7 @@ Learning Rate = 2.0
 
 PART 2
 ------
+ASK
 - Refer to this code: COLABLINK (https://colab.research.google.com/drive/1uJZvJdi5VprOQHROtJIHy0mnY2afjNlx#scrollTo=h_Cx9q2QFgM7)
 - WRITE IT AGAIN SUCH THAT IT ACHIEVES
 - 99.4% validation accuracy
@@ -70,3 +71,6 @@ PART 2
 - You can use anything from above you want. 
 - Less than 20 Epochs
 - Have used BN, Dropout, a Fully connected layer, have used GAP. 
+
+SOLUTION
+- 99.43% achieved in Epoch 15 with Total params: 19,898
