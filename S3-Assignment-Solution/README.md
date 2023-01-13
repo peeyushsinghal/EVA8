@@ -74,6 +74,11 @@ ASK
 
 SOLUTION
 - 99.43% achieved in Epoch 15 with Total params: 19,898
+- Use of Conv layers (with and without padding), 
+- use of BN : to make sure that the features available to the next layer is good
+- use of max pooling : used twice, at - least 2 Conv layers away from output
+- use of GAP : instead of FC layers
+- use of 1x1 : to reduce the number of channels
 
 Model Summary
 ------------
@@ -98,3 +103,106 @@ Total params: 19,898
 Trainable params: 19,898
 Non-trainable params: 0
 
+Training Logs
+------------
+Epoch : 1
+  0%|          | 0/938 [00:00<?, ?it/s]<ipython-input-50-c392a1a1881b>:109: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  return F.log_softmax(x)
+loss=0.09435084462165833 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.17it/s]
+
+Test set: Average loss: 0.1038, Accuracy: 9694/10000 (96.94%)
+
+Epoch : 2
+loss=0.04427072033286095 batch_id=937: 100%|██████████| 938/938 [00:20<00:00, 45.83it/s]
+
+Test set: Average loss: 0.0481, Accuracy: 9855/10000 (98.55%)
+
+Epoch : 3
+loss=0.012302487157285213 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 47.99it/s]
+
+Test set: Average loss: 0.0363, Accuracy: 9876/10000 (98.76%)
+
+Epoch : 4
+loss=0.08877681940793991 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.28it/s]
+
+Test set: Average loss: 0.0318, Accuracy: 9893/10000 (98.93%)
+
+Epoch : 5
+loss=0.03348008170723915 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 47.95it/s]
+
+Test set: Average loss: 0.0307, Accuracy: 9903/10000 (99.03%)
+
+Epoch : 6
+loss=0.01472412794828415 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.33it/s]
+
+Test set: Average loss: 0.0266, Accuracy: 9909/10000 (99.09%)
+
+Epoch : 7
+loss=0.10081133991479874 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.45it/s]
+
+Test set: Average loss: 0.0242, Accuracy: 9928/10000 (99.28%)
+
+Epoch : 8
+loss=0.013235016725957394 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.25it/s]
+
+Test set: Average loss: 0.0231, Accuracy: 9914/10000 (99.14%)
+
+Epoch : 9
+loss=0.021460464224219322 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.51it/s]
+
+Test set: Average loss: 0.0240, Accuracy: 9919/10000 (99.19%)
+
+Epoch : 10
+loss=0.08201948553323746 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 47.20it/s]
+
+Test set: Average loss: 0.0233, Accuracy: 9922/10000 (99.22%)
+
+Epoch : 11
+loss=0.022448187693953514 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.95it/s]
+
+Test set: Average loss: 0.0241, Accuracy: 9914/10000 (99.14%)
+
+Epoch : 12
+loss=0.19182398915290833 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 49.07it/s]
+
+Test set: Average loss: 0.0215, Accuracy: 9929/10000 (99.29%)
+
+Epoch : 13
+loss=0.09115644544363022 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 49.29it/s]
+
+Test set: Average loss: 0.0268, Accuracy: 9911/10000 (99.11%)
+
+Epoch : 14
+loss=0.0069293309934437275 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.59it/s]
+
+Test set: Average loss: 0.0185, Accuracy: 9932/10000 (99.32%)
+
+Epoch : 15
+loss=0.0031304245349019766 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.50it/s]
+
+Test set: Average loss: 0.0182, **Accuracy: 9943/10000 (99.43%)**
+
+Epoch : 16
+loss=0.005510952789336443 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.55it/s]
+
+Test set: Average loss: 0.0172, **Accuracy: 9941/10000 (99.41%)**
+
+Epoch : 17
+loss=0.0024028862826526165 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 49.26it/s]
+
+Test set: Average loss: 0.0190, Accuracy: 9936/10000 (99.36%)
+
+Epoch : 18
+loss=0.03194262832403183 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 47.77it/s]
+
+Test set: Average loss: 0.0186, Accuracy: 9937/10000 (99.37%)
+
+Epoch : 19
+loss=0.0006877807900309563 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 48.23it/s]
+
+Test set: Average loss: 0.0180, Accuracy: 9939/10000 (99.39%)
+
+Epoch : 20
+loss=0.0015419232659041882 batch_id=937: 100%|██████████| 938/938 [00:19<00:00, 49.22it/s]
+
+Test set: Average loss: 0.0186, Accuracy: 9934/10000 (99.34%)
