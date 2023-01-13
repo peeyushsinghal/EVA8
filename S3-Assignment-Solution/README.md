@@ -73,7 +73,7 @@ ASK
 - Have used BN, Dropout, a Fully connected layer, have used GAP. 
 
 SOLUTION
-- 99.43% achieved in Epoch 15 with Total params: 19,898
+- 99.43% achieved in Epoch 15 with Total params: 19,898 (see https://github.com/peeyushsinghal/EVA8/blob/main/S3-Assignment-Solution/EVA4_Session_2.ipynb)
 - Use of Conv layers (with and without padding), 
 - use of BN : to make sure that the features available to the next layer is good
 - use of max pooling : used twice, at - least 2 Conv layers away from output
