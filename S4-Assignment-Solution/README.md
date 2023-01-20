@@ -25,3 +25,28 @@ Experiment 1
 
 * Reduce Number of Params
 * Remove overfitting
+
+
+Experiment 2
+--------------
+**Objective / Target**
+*   Reduce Params 
+*   Reduce overfitting
+
+
+**Results**
+
+* Parameters: 4,038
+* Best Train Accuracy: 97.73 %
+* Best Test Accuracy: 98.23 %
+
+**Analysis**
+
+* Small model
+* Not able to hit the accuracy mark
+* Overfitting (train - test accuracy) < 0 contained
+
+**Next Steps**
+
+* Increase Number of Params
+* little overfitting, not much
