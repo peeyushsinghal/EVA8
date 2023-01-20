@@ -79,3 +79,27 @@ Experiment 3
 
 * Increase accuracy
 * Play with learning rate if it helps
+
+Experiment 5
+-------------
+**Objective / Target**
+* Increase accuracy
+* Find other ways, may be transformation to prop up the accuarcy, trying transformation 
+
+**Results**
+
+* Parameters: 9,990
+* Best Train Accuracy: 99.03 %
+* Best Test Accuracy: 99.33%
+
+**Analysis**
+
+* Not hitting the accuracy mark
+* Overfitting (train - test accuracy) < 0 is largely containted, model underfits (Target not achieved)
+* LR has played its role to move up the accuracy
+* Number of params < 10K
+
+**Next Steps**
+
+* Find other ways, may be transformation to prop up the accuarcy
+
