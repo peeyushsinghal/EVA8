@@ -1,3 +1,7 @@
+import torch.nn as nn
+import torch.nn.functional as F # for forward method
+
+
 class Network(nn.Module):
   def __init__(self, norm = 'bn'):
     super(Network,self).__init__() # extending super class method
