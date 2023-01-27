@@ -25,9 +25,16 @@ Observations
 Validation / Test accuracy and loss
 --------------------------------------
 
+![image](https://user-images.githubusercontent.com/10797988/215155334-7c717d3e-2a7f-42d7-9597-d635e8e3a199.png)
 
 
 Misclassification of Images
 --------------------------------------
+=========Misclassified Images for Batch Normalization.========
+![image](https://user-images.githubusercontent.com/10797988/215155423-03f97cbf-d7f7-48ec-9ee1-43f71715d408.png)
+=========Misclassified Images for Layer Normalization.========
+![image](https://user-images.githubusercontent.com/10797988/215155456-2f15694f-7d21-4063-8fde-1305af432ceb.png)
+=========Misclassified Images for Group Normalization.========
+![image](https://user-images.githubusercontent.com/10797988/215155512-2b8526c8-820d-43f9-a860-977a2cb77c27.png)
 
 
