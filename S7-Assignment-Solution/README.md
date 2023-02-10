@@ -17,3 +17,9 @@ Train ResNet18 on Cifar10 for 20 Epochs. The assignment must:
 - Apply these transforms while training:
   - RandomCrop(32, padding=4)
   - CutOut(16x16)
+  
+ Training and Validation Plots
+ ----------------------------
+![image](https://user-images.githubusercontent.com/10797988/218083088-501ecbf3-d464-4547-9027-da33d11c46a0.png)
+![image](https://user-images.githubusercontent.com/10797988/218083153-9c4d6482-0ac3-4876-99d0-76c685b6a788.png)
+
