@@ -27,7 +27,7 @@ Misclassified Images (20)
 --------------------
 ![image](https://user-images.githubusercontent.com/10797988/218083378-b708ebfe-cfde-4270-83e0-cd74de5f0444.png)
 
-GradCan Output for Misclassified Images (20)
+GradCan Output for Misclassified Images (10)
 ------------------------------------
 Least Number of Pixels for Grad Cam = 8
 
