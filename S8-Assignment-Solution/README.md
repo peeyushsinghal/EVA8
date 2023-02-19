@@ -31,16 +31,19 @@ Objective
   
  Training and Validation Plots
  ----------------------------
-![image](https://user-images.githubusercontent.com/10797988/218083088-501ecbf3-d464-4547-9027-da33d11c46a0.png)
-![image](https://user-images.githubusercontent.com/10797988/218083153-9c4d6482-0ac3-4876-99d0-76c685b6a788.png)
+ Best validation accuracy = 87.20%
+![image](https://user-images.githubusercontent.com/10797988/219923128-6db2b08a-5289-47be-8423-3334c93c72a5.png)
+![image](https://user-images.githubusercontent.com/10797988/219923132-864438f0-ecc2-4e26-96c0-979d376f7268.png)
+
 
 Misclassified Images (20)
 --------------------
-![image](https://user-images.githubusercontent.com/10797988/218083378-b708ebfe-cfde-4270-83e0-cd74de5f0444.png)
+![image](https://user-images.githubusercontent.com/10797988/219923141-baf26706-f296-45b7-b8a6-9d9747947235.png)
 
-GradCan Output for Misclassified Images (10)
+GradCam Output for Misclassified Images (10)
 ------------------------------------
-Least Number of Pixels for Grad Cam = 8
 
-![image](https://user-images.githubusercontent.com/10797988/218083551-a9799d93-956a-49df-8402-53b5be7b257c.png)
+![image](https://user-images.githubusercontent.com/10797988/219923146-a2a92201-9364-4c1d-be86-ec120dd75654.png)
+
+
 
