@@ -29,6 +29,134 @@ Data Set
 
 We have used the CIFAR-10 dataset
 
+Model File
+---------
+Model file is kept at https://github.com/peeyushsinghal/pytorch-models-utils/blob/main/models/transformer_ultimus.py
+
+Training Logs
+-------------
+```
+EPOCH: 1
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.01: 100%|██████████| 391/391 [00:18<00:00, 21.62it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 2
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 20.75it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 3
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.27it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 4
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.19it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 5
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:19<00:00, 20.36it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 6
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:19<00:00, 20.35it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 7
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:19<00:00, 20.01it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 8
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.33it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 9
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.67it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 10
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:19<00:00, 20.14it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 11
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.38it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 12
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:19<00:00, 20.54it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 13
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.02it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 14
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.38it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 15
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:19<00:00, 20.01it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 16
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.26it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 17
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:19<00:00, 20.47it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 18
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:23<00:00, 16.95it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 19
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.06it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 20
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:19<00:00, 20.03it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 21
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.05it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 22
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.54it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 23
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:19<00:00, 19.76it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+
+EPOCH: 24
+Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|██████████| 391/391 [00:18<00:00, 21.10it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
+```
+
 Class level Accuracy
 -------------------
 ```
