@@ -1,4 +1,4 @@
-Assignment 9
+## Assignment 9
 -----------
 ## Build the following network:
 
@@ -23,3 +23,27 @@ Assignment 9
   - Share the code of model9.py
   - Copy and paste the Training Log
   - Copy and paste the training and validation loss chart
+  
+Data Set
+------------
+
+We have used the CIFAR-10 dataset
+
+Class level Accuracy
+-------------------
+```
+Accuracy of airplane : 100 %
+Accuracy of automobile :  0 %
+Accuracy of  bird :  0 %
+Accuracy of   cat :  0 %
+Accuracy of  deer :  0 %
+Accuracy of   dog :  0 %
+Accuracy of  frog :  0 %
+Accuracy of horse :  0 %
+Accuracy of  ship :  0 %
+Accuracy of truck :  0 %
+
+
+```
+
+
