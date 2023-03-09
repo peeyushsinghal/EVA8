@@ -32,6 +32,72 @@ We have used the CIFAR-10 dataset
 Model File
 ---------
 Model file is kept at https://github.com/peeyushsinghal/pytorch-models-utils/blob/main/models/transformer_ultimus.py
+Code file is kept at https://github.com/peeyushsinghal/EVA8/blob/main/S9-Assignment-Solution/EVA8_S9_v3.ipynb
+
+Comments
+--------
+- For certain unidentified reason, the accuracy is stuck at 10%
+- Trained for 24 epochs
+- used one cycle policy
+- used LR finder to understand max LR
+
+Model_Params
+------------
+```
+============================================================================================================================================
+Layer (type (var_name))                  Param #                   Kernel Shape              Input Shape               Output Shape
+============================================================================================================================================
+TransformerUltimus (TransformerUltimus)  --                        --                        [8, 3, 32, 32]            [8, 10]
+├─Sequential (conv)                      --                        --                        [8, 3, 32, 32]            [8, 48, 32, 32]
+│    └─Conv2d (0)                        432                       [3, 3]                    [8, 3, 32, 32]            [8, 16, 32, 32]
+│    └─ReLU (1)                          --                        --                        [8, 16, 32, 32]           [8, 16, 32, 32]
+│    └─BatchNorm2d (2)                   32                        --                        [8, 16, 32, 32]           [8, 16, 32, 32]
+│    └─Conv2d (3)                        4,608                     [3, 3]                    [8, 16, 32, 32]           [8, 32, 32, 32]
+│    └─ReLU (4)                          --                        --                        [8, 32, 32, 32]           [8, 32, 32, 32]
+│    └─BatchNorm2d (5)                   64                        --                        [8, 32, 32, 32]           [8, 32, 32, 32]
+│    └─Conv2d (6)                        13,824                    [3, 3]                    [8, 32, 32, 32]           [8, 48, 32, 32]
+│    └─ReLU (7)                          --                        --                        [8, 48, 32, 32]           [8, 48, 32, 32]
+│    └─BatchNorm2d (8)                   96                        --                        [8, 48, 32, 32]           [8, 48, 32, 32]
+├─AdaptiveAvgPool2d (gap)                --                        --                        [8, 48, 32, 32]           [8, 48, 1, 1]
+├─Sequential (ultimus_blocks)            --                        --                        [8, 48]                   [8, 48]
+│    └─Ultimus (0)                       --                        --                        [8, 48]                   [8, 48]
+│    │    └─Linear (layer_Q)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (layer_K)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (layer_V)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (out)                 384                       --                        [8, 8]                    [8, 48]
+│    └─Ultimus (1)                       --                        --                        [8, 48]                   [8, 48]
+│    │    └─Linear (layer_Q)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (layer_K)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (layer_V)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (out)                 384                       --                        [8, 8]                    [8, 48]
+│    └─Ultimus (2)                       --                        --                        [8, 48]                   [8, 48]
+│    │    └─Linear (layer_Q)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (layer_K)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (layer_V)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (out)                 384                       --                        [8, 8]                    [8, 48]
+│    └─Ultimus (3)                       --                        --                        [8, 48]                   [8, 48]
+│    │    └─Linear (layer_Q)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (layer_K)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (layer_V)             384                       --                        [8, 48]                   [8, 8]
+│    │    └─Linear (out)                 384                       --                        [8, 8]                    [8, 48]
+├─Linear (ffc)                           480                       --                        [8, 48]                   [8, 10]
+============================================================================================================================================
+Total params: 25,680
+Trainable params: 25,680
+Non-trainable params: 0
+Total mult-adds (M): 154.59
+============================================================================================================================================
+Input size (MB): 0.10
+Forward/backward pass size (MB): 12.60
+Params size (MB): 0.10
+Estimated Total Size (MB): 12.80
+============================================================================================================================================
+```
+Training Plots
+-----------
+
+![image](https://user-images.githubusercontent.com/10797988/224010750-08fc2cac-971b-4b8a-80b4-43e09819e20d.png)
+
 
 Training Logs
 -------------
@@ -156,6 +222,11 @@ Loss=2.302584171295166 Batch_id=390 Accuracy=10.00: 100%|███████�
 
 Test set: Average loss: 0.0002, Accuracy: 1000/10000 (10.00%)
 ```
+Sample training Images
+----------------
+
+![image](https://user-images.githubusercontent.com/10797988/224010511-40e22322-3479-478c-9776-55c1293c7a25.png)
+
 
 Class level Accuracy
 -------------------
@@ -170,8 +241,10 @@ Accuracy of  frog :  0 %
 Accuracy of horse :  0 %
 Accuracy of  ship :  0 %
 Accuracy of truck :  0 %
-
-
 ```
+
+Misclassified Images
+---------
+![image](https://user-images.githubusercontent.com/10797988/224010646-75ccad7d-b268-40e8-8d3b-a866eac9893e.png)
 
 
