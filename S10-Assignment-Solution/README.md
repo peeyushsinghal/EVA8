@@ -13,7 +13,7 @@ Check out this [network](https://github.com/kentaroy47/vision-transformers-cifar
     1. Share the model code and link to the model cost  
     2. Share the training logs  
     ---------
-    ```ViT: Epoch: 0 | Train Acc: 0.1780, Test Acc: 0.2883, Time: 71.9, lr: 0.001000
+```ViT: Epoch: 0 | Train Acc: 0.1780, Test Acc: 0.2883, Time: 71.9, lr: 0.001000
 ViT: Epoch: 1 | Train Acc: 0.2807, Test Acc: 0.3714, Time: 65.8, lr: 0.002000
 ViT: Epoch: 2 | Train Acc: 0.3436, Test Acc: 0.4328, Time: 64.1, lr: 0.003000
 ViT: Epoch: 3 | Train Acc: 0.3933, Test Acc: 0.4798, Time: 63.1, lr: 0.004000
